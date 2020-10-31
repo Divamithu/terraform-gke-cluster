@@ -38,3 +38,4 @@ terraform-key.json
 
 # IDE folders
 .idea
+.vscode
