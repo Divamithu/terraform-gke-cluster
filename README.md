@@ -18,4 +18,6 @@ terraform apply
 
 ## Links
 
-https://www.terraform.io/docs/providers/google/r/container_node_pool.html
+- https://www.terraform.io/docs/providers/google/r/container_node_pool.html
+- https://circleci.com/blog/learn-iac-part1/
+
