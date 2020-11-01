@@ -7,7 +7,7 @@ variable "app_name" {
 }
 
 variable "initial_node_count" {
-  default = 3
+  default = 1
 }
 
 variable "kubernetes_min_ver" {
@@ -22,4 +22,6 @@ variable "remove_default_node_pool" {
   default = false
 }
 
-data "google_compute_zones" "available" {}
+variable "region" {
+  default = "europe-west1"
+}

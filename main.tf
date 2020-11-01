@@ -7,5 +7,5 @@ module "gke-cluster" {
   source = "./modules/cluster"
   cluster_name = "my-cluster"
   app_name = "my-app"
-  initial_node_count = 2
+  initial_node_count = 1
 }
