@@ -12,7 +12,7 @@ Use the [project editor role](https://cloud.google.com/iam/docs/understanding-ro
 
 ```bash
 terraform init
-terraform plan
+terraform plan -var="project=your_project"
 terraform apply -var="project=your_project"
 ```
 
