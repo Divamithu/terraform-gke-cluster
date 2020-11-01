@@ -1,9 +1,5 @@
-variable "app_name" {
-  default = "test"
-}
-
 variable "project" {
-  default = "test-project-kraim"
+  default = "your-project-name"
 }
 
 variable "region" {
@@ -14,22 +10,6 @@ variable "zone" {
   default = "europe-west1-c"
 }
 
-variable "cluster" {
-  default = "test-cluster"
-}
-
-variable "initial_node_count" {
-  default = 3
-}
-
 variable "credentials" {
   default = "terraform-key.json"
-}
-
-variable "kubernetes_min_ver" {
-  default = "latest"
-}
-
-variable "kubernetes_max_ver" {
-  default = "latest"
 }
