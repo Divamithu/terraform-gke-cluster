@@ -8,4 +8,5 @@ module "gke-cluster" {
   cluster_name = "my-cluster"
   app_name = "my-app"
   initial_node_count = 1
+  project = var.project
 }

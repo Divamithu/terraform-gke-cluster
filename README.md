@@ -16,6 +16,11 @@ terraform plan -var="project=your_project"
 terraform apply -var="project=your_project"
 ```
 
+Or use `custom.tfvars` file to connect to another project
+```bash
+terraform apply -var-file="custom.tfvars"
+```
+
 ## Links
 
 - https://www.terraform.io/docs/providers/google/r/container_node_pool.html
