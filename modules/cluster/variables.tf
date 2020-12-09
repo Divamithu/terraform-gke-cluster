@@ -25,3 +25,7 @@ variable "remove_default_node_pool" {
 variable "region" {
   default = "europe-west1"
 }
+
+variable "project" {
+  default = "your-project-name"
+}
