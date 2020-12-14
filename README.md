@@ -17,6 +17,11 @@ terraform apply -var="project=your_project"
 ```
 
 Or use `custom.tfvars` file to connect to another project
+```javascript
+project = "your_project"
+```
+
+and run
 ```bash
 terraform apply -var-file="custom.tfvars"
 ```
