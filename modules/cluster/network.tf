@@ -12,4 +12,5 @@ resource "google_compute_firewall" "default" {
   }
 
   source_tags = [var.app_name]
+  source_ranges = ["0.0.0.0/0"]
 }
